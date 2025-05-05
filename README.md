@@ -31,19 +31,19 @@ docker-compose up -d
 
 ```bash
 # Ubuntu container
-ssh -p 2222 root@localhost
+ssh -p 2222 ansible@localhost
 
 # Alpine container
-ssh -p 2223 root@localhost
+ssh -p 2223 ansible@localhost
 
 # Red Hat container
-ssh -p 2224 root@localhost
+ssh -p 2224 ansible@localhost
 
 # Debian container
-ssh -p 2225 root@localhost
+ssh -p 2225 ansible@localhost
 
 # Arch Linux container
-ssh -p 2226 root@localhost
+ssh -p 2226 ansible@localhost
 ```
 
 ## Container Details
