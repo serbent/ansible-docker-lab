@@ -40,7 +40,7 @@ RUN chown ansible:ansible /home/ansible/.ssh/authorized_keys && \
 
 # Expose SSH port
 EXPOSE 22
-
+USER ansible
 # Start SSH service and keep the container running
 CMD ["/usr/sbin/sshd", "-D"]
 
